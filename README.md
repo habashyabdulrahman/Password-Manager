@@ -2,7 +2,7 @@
 
 Welcome to the **Password Manager Project**! This lightweight, user-friendly web app is designed to store and manage your passwords efficiently.
 
-![Password Manager Banner](https://ibb.co/b7j4GXc) <!-- Replace this with an actual image URL if available -->
+![Password Manager Banner](https://i.ibb.co/JCWYSHD/Screenshot-2025-01-23-183423.png) <!-- Replace this with an actual image URL if available -->
 
 ## Features 🎉
 - **Add Passwords**: Easily save your website, email, and password information.
