@@ -6,7 +6,6 @@
 
 body {
   font-family: Arial, sans-serif;
-  margin: 1rem;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -16,7 +15,11 @@ body {
   color: #fff;
 }
 h1 { 
-  margin-bottom: 1rem;
+  margin: 2rem 0 1rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 .fa-key {
@@ -26,9 +29,10 @@ h1 {
 .container {
   background-color: #242424cc;
   padding: 20px;
+  margin-bottom: 4rem;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 100%;
+  width: 95%;
   display: flex;
   justify-content: space-between;
 }
@@ -234,6 +238,67 @@ button:hover { background: #0056b3; }
   font-size: 18px;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background: #666666;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+footer p a {
+  text-align: center;
+}
+footer p {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.icon-url {
+  align-items: center;
+  display: inline-flex;
+  padding: 3px;
+  color: #fff;
+  border-radius: 4px;
+  transition: 0.2s ease;
+}
+
+.icon-url .icon-copy {
+  font-weight: 700;
+  margin-left: 2px;
+}
+.icon-url:hover{
+  color: #479ef5;
+  cursor: pointer;
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+}
+.social i {
+  font-size: 1.5rem;
+  color: #fff;
+  transition: .2s ease;
+  cursor: pointer;
+}
+
+.social i:hover {
+  color: #007bff;
+}
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -244,5 +309,12 @@ button:hover { background: #0056b3; }
   }
   #addPassword {
     width: 100%;
+  }
+  .password-list {
+    justify-content: center;
+  }
+  footer {
+    justify-content: space-around;
+    padding: 0;
   }
 }
