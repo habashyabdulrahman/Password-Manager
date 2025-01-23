@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Manager</title>
+  <link rel="shortcut icon" href="icon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <h1><i class="fa-solid fa-key"></i> Password Manager</h1>
+  <div class="container">
+    <div class="input">
+      <div class="input-group">
+      <label for="website">Website</label>
+      <input type="text" id="website" placeholder="Enter website">
+    </div>
+    <div class="input-group">
+      <label for="email">Email</label>
+      <input type="text" id="email" placeholder="Enter email">
+    </div>
+    <div class="input-group">
+      <label for="password">Password</label>
+      <input type="text" id="password" placeholder="Enter password">
+    </div>
+    <button id="addPassword">Add Password</button>
+    </div>
+    <div class="output">
+      <input type="text" id="search" placeholder="Search websites...">
+    <div class="password-list" id="passwordList">
+        <!-- Password items will appear here -->
+    </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
