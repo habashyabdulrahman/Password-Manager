@@ -1,8 +1,8 @@
 # Password Manager Project 🔐
 
 Welcome to the **Password Manager Project**! This lightweight, user-friendly web app is designed to store and manage your passwords efficiently.
-{ style="border-radius: 10px;" }
-![Password Manager Banner](./assets/image.png) 
+
+![Password Manager Banner](./assets/image.png){ style="border-radius: 10px;" } <!-- Replace this with an actual image URL if available -->
 
 ## Features 🎉
 - **Add Passwords**: Easily save your website, email, and password information.
@@ -26,13 +26,6 @@ Welcome to the **Password Manager Project**! This lightweight, user-friendly web
 - `index.html`: Main HTML structure of the app.
 - `style.css`: Contains all the styles for a sleek UI.
 - `script.js`: Contains the logic for managing passwords and local storage.
-
-## Screenshots 🖼
-### Main Interface:
-![Main Interface](https://via.placeholder.com/400x300.png?text=Main+Interface) <!-- Replace this with an actual screenshot -->
-
-### Add Password Section:
-![Add Password](https://via.placeholder.com/400x300.png?text=Add+Password) <!-- Replace this with an actual screenshot -->
 
 ## Future Enhancements 🌐
 - **Password Encryption**: Adding encryption to enhance security.
