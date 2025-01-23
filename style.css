@@ -80,7 +80,7 @@ a {
       padding: 10px;
       border-radius: 4px;
       cursor: pointer;
-      width: 90%;
+      width: 100%;
       transition: 0.2s ease;
 
       &:hover {
